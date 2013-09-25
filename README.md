@@ -17,8 +17,12 @@ http://octopress.org/docs/
 http://ruhoh.com/
 * pandoc
 http://johnmacfarlane.net/pandoc/
+* DevKit
+https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+* ruby windows install
+http://rubyinstaller.org/downloads/
 
 OpenSSL error(windows)
 
-* http://railsapps.github.io/openssl-certificate-verify-failed.html
 * https://gist.github.com/fnichol/867550
+* http://railsapps.github.io/openssl-certificate-verify-failed.html
