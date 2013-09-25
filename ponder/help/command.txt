@@ -1,11 +1,15 @@
+http://ruhoh.com/docs/2/
 
 1 ruby -v
 2 gem --version
-3 gem install nanoci 
+3 gem install nanoc
+(to resolve the openssl errors)
 4 ruby win_*.rb
    set SSL_CERT_FILE = d:///
-
 5 gem list
 6 bundle -v
 7 bundle install 
+(there maybe some errors when install  redcarpet, the solution is to download the devkit)
+   bundle show redcarpet
 8 bundle exec ruhoh server 9292
+
