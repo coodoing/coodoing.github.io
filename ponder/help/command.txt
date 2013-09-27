@@ -7,6 +7,7 @@ http://ruhoh.com/docs/2/
 4 ruby win_*.rb
    set SSL_CERT_FILE = d:///
 5 gem list
+(gem bundle install )--> if the bundle package is not installed
 6 bundle -v
 7 bundle install 
 (there maybe some errors when install  redcarpet, the solution is to download the devkit)
