@@ -1,5 +1,3 @@
-production_url : 'http://ponderme.coodoing.org'
-
 ---
 # Usage: http://ruhoh.com
 
@@ -10,7 +8,7 @@ RuhohSpec: "2.1"
 # Used for things like RSS that need the full URL to a given resource.
 # This DOES NOT affect any of your paths or links in any way.
 # This DOES NOT configure domain mapping. See post2.ruhoh.com for hosting options.
-production_url: "http://daisygao.com"
+production_url : 'http://ponderme.com'
 
 # Intelligently prepends all urls in the system with the given base_path.
 # This allows you to host your blog in a subdirectory of a given website.
@@ -99,7 +97,7 @@ widgets :
     use : disqus
     enable : true
     # -- config for disqus --
-    short_name : daisygao # Change This!
+    short_name : coodoing # Change This!
 
     # -- config for livefyre --
     # site_id : 123
