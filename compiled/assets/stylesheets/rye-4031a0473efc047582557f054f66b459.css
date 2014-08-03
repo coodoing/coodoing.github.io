@@ -1,0 +1,48 @@
+/**css of rye*/
+.page-header{
+	background-color: #fafafa;
+	padding: 2px 20px 0px;
+	margin: -20px -20px 20px;
+	display: none
+}
+
+.page-header h1{
+	font-size: 28px;
+}
+
+.page-header h1 small{
+	font-size: 16px;
+}
+
+.post > h3.title {
+  position:relative;
+  padding: 2px 5px 5px 5px;
+  border-top:3px solid #EEE;
+  margin-bottom: 15px;
+  font-size: 1.9em;
+  font-weight: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #F5F5F5;
+}
+.post > h3.title a {
+    color: black;
+    display: block;
+    width: 500px;
+}
+
+.post > h3.title a:hover {
+    text-decoration: none;
+}
+
+.post > h3.title span.date { 
+  position:absolute;
+  right:5px;
+  top: 4px;
+  font-size:0.7em;
+  color: #777;
+}
+
+.post > .more {
+  margin:10px 0 18px 0;
+  text-align:left;
+}

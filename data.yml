@@ -1,8 +1,15 @@
-title: ponderme
+title : Rye of coodoing 
+#tagline: thinking and enjoying
+author :
+  name : x z 
+  email : jairdxs@gmail.com
+  github : coodoing
+  twitter : coodoing
+  feedburner : feedname
 
 navigation :
-#  - archive
-#  - tags
-#  - categories
-#  - pages
-#  - about
+  - archive
+  - tags
+  - categories
+  - pages
+  - about
