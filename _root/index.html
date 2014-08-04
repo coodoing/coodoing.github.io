@@ -11,9 +11,24 @@ tagline: thinking and enjoying
 
   {{{ summary }}}
 
-  <div class="more">
-    <a href="{{url}}" class="btn btn-small">read more..</a>
-  </div>
+  <!-- <div class="more">
+    <a href="{{url}}" class="btn btn-small">更多..</a>
+  </div> -->
+  
+  <div class="index_tag">
+    <ul class="tag_box inline">
+      <li> <i class="icon-folder-open"></i> </li>
+        {{# categories }}
+          <li><a href="{{url}}">{{name}} <span>{{count}}</span></a></li>
+        {{/ categories }}      
+          &nbsp;&nbsp;&nbsp;&nbsp;
+        <li> <i class="icon-tags"></i> </li>
+        {{# tags }}
+          <li><a href="{{url}}">{{name}} <span>{{count}}</span></a></li>
+        {{/ tags }}
+    </ul>
+  </div>  
+
 </div>
 {{/ posts.paginator }}
 

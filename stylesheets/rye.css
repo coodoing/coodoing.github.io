@@ -1,4 +1,7 @@
 /**css of rye*/
+.navbar{
+  margin-bottom: 0px
+}
 
 .container-narrow{
   max-width: 900px;
@@ -35,7 +38,7 @@
     display: block;
     width: 500px;
     padding-left: 10px;
-    
+
 }
 
 .post > h3.title a:hover {

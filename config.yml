@@ -4,6 +4,7 @@ _root:
     enable: false
   paginator:
     enable: false
+  permalink:""
 
 posts:
   sort: ["date", "desc"]
@@ -25,7 +26,13 @@ posts:
     # Note the default is technically <paginator.url>/1 just as the other paginated pages.
     # It is up to you to display the paginator_pagination links somewhere in this case.
 
-widgets :
-  google_prettify :
-    use : default
-    linenums : true
+widgets:
+  analytics:
+    use: google
+      # -- config for google --
+      tracking_id: 'UA-36877105-1' 
+      # -- config for getclicky  --
+      # site_id :
+  google_prettify:
+    use: default
+    linenums: true
