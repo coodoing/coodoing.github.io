@@ -24,3 +24,8 @@ posts:
     # Set the custom page you want page#1 of your posts paginator to link to. (default: /posts/index/1)
     # Note the default is technically <paginator.url>/1 just as the other paginated pages.
     # It is up to you to display the paginator_pagination links somewhere in this case.
+
+widgets :
+  google_prettify :
+    use : default
+    linenums : true

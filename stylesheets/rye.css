@@ -1,4 +1,10 @@
 /**css of rye*/
+
+.container-narrow{
+  max-width: 900px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+
 .page-header{
 	background-color: #fafafa;
 	padding: 2px 20px 0px;
@@ -21,13 +27,15 @@
   margin-bottom: 15px;
   font-size: 1.9em;
   font-weight: normal;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;;
   background-color: #F5F5F5;
 }
 .post > h3.title a {
     color: black;
     display: block;
     width: 500px;
+    padding-left: 10px;
+    
 }
 
 .post > h3.title a:hover {
